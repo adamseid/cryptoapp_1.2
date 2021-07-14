@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-root_dir = 'D:/Project/Crypto App/cryptoapp_1.2/'
+root_dir = 'C:/Users/ethio/VS/React/cryptoapp_1.2/'
 ledger_dir = 'database/tables/fund_ledger/NDAX/'
 ledger_name = '2021-6-15.xlsx'
 
