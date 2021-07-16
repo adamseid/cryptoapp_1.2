@@ -29,8 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'websocket',
     'administrator',
-    'channels',
-    'herokuapp'
+    'channels'
 ]
 
 MIDDLEWARE = [
