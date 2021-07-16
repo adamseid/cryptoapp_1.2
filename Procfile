@@ -1,1 +1,1 @@
-web: react-scripts start
+web: python cryptoapp_1.2/manage.py runserver "0.0.0.0:$PORT"
