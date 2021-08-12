@@ -3,8 +3,8 @@ import UpdateTables from './update-tables/UpdateTables'
 
 export default class FundPanel extends Component {
 
-    ws = new WebSocket('ws://https://cryptoapp1-2server.herokuapp.com/ws/websocket/' + this.props.location.state.fund_name + '/')
 
+    ws = new WebSocket('ws://https://cryptoapp1-2server.herokuapp.com/ws/websocket/' + this.props.location.state.fund_name + '/')
     state = {
         loading_display: 'show',
         head_display: 'hide',
